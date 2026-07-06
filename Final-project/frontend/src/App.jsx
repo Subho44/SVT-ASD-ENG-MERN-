@@ -11,6 +11,7 @@ import Editcourse from './components/Editcourse';
 import Register from './components/Register';
 import Login from './components/Login';
 import Privateroute from './utils/Privateroute';
+import Chatrecom from './components/Chatrecom';
 
 const App = () => {
 
@@ -30,6 +31,7 @@ const App = () => {
             <Route path="/add" element={<Addcourse />}></Route>
             <Route path="/course/:id" element={<Coursedetails />}></Route>
             <Route path="/edit/:id" element={<Editcourse />}></Route>
+            <Route path="/chat" element={<Chatrecom />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>

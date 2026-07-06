@@ -1,4 +1,5 @@
 import React from "react";
+import Chat from "./Chat";
 
 const Service = () => {
   const services = [
@@ -84,6 +85,9 @@ const Service = () => {
               </button>
             </div>
           ))}
+        </div>
+        <div>
+          <Chat/>
         </div>
       </div>
 

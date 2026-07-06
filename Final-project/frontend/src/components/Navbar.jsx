@@ -43,9 +43,10 @@ const Navbar = () => {
                   <Link to="/add" className="hover:text-yellow-300">
                     Add COURSE
                   </Link>
-                  <button onClick={hl}>
-                    Logout
-                  </button>
+                  <Link to="/chat" className="hover:text-yellow-300">
+                    Chat Recommende
+                  </Link>
+                  <button onClick={hl}>Logout</button>
                 </>
               )}
             </div>
